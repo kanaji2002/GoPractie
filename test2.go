@@ -20,7 +20,24 @@ func testfunc(a int) int {
 }
 
 
+type Person struct {
+	name string
+	age int
+	job string
+	salary int
+  }
+
+
 func main(){
+
+
+var person1 Person
+
+person1.name = "John"
+person1.age = 30
+
+fmt.Println("Name:", person1.name)
+fmt.Println("Age:", person1.age)	
 testfunc(10)
 hello()
 hello()
