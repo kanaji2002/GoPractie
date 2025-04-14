@@ -33,4 +33,9 @@ fmt.Println("c is not 10, 20 or 30")
 a&=5
 fmt.Println(a)
 
+
+for i:=0; i<1; i++ {
+fmt.Println("hello world")
+}
+
 }
