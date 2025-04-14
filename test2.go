@@ -1,6 +1,29 @@
 package main
 import("fmt")
+func hello(){
+	fmt.Println("hello world")
+
+}
+
+
+func testfunc(a int) int {
+
+	if a == 0 {
+		fmt.Println("最後だを．")
+		return 1
+	
+	} else {
+		fmt.Println("これは，",a,"回目の再帰です")
+		return a*testfunc(a-1)
+		
+	}
+}
+
+
 func main(){
+testfunc(10)
+hello()
+hello()
 myslice := []int {1,2,3,3}
 
 fmt.Println(myslice)
@@ -37,5 +60,13 @@ fmt.Println(a)
 for i:=0; i<1; i++ {
 fmt.Println("hello world")
 }
+
+
+
+
+
+
+
+
 
 }
