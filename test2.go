@@ -18,6 +18,18 @@ fmt.Println("a is less than b")
 }
 
 
+var c int = 30
+switch c {
+case 10:
+fmt.Println("c is 10")
+case 20:
+fmt.Println("c is 20")
+case 30:
+fmt.Println("c is 30")
+default:
+fmt.Println("c is not 10, 20 or 30")
+}
+
 a&=5
 fmt.Println(a)
 
