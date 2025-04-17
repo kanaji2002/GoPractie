@@ -7,6 +7,7 @@ func main() {
 
   fmt.Printf("a\t%v\n", a)
   fmt.Printf("b\t%v\n", b)
+  fmt.Printf("a[brand]\t%v\n", a["brand"])
 }
 
 
