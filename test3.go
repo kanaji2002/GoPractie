@@ -6,8 +6,10 @@ func main() {
   b := map[string]int{"Oslo": 1, "Bergen": 2, "Trondheim": 3, "Stavanger": 4}
 
   fmt.Printf("a\t%v\n", a)
-  fmt.Printf("b\t%v\n", b)
+  fmt.Printf("b\t%v\n"
   fmt.Printf("a[brand]\t%v\n", a["brand"])
+  fmt.Printf("a[model]\t%v\n", a["model"])
+  fmt.Printf("a[year]\t%v\n", a["year"])
 }
 
 
