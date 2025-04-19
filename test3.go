@@ -10,6 +10,7 @@ func main() {
   fmt.Printf("a[brand]\t%v\n", a["brand"])
   fmt.Printf("a[model]\t%v\n", a["model"])
   fmt.Printf("a[year]\t%v\n", a["year"])
+  fmt.Printf("b[Oslo]\t%v\n", b["Oslo"])
 }
 
 
